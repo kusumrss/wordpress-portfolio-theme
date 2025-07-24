@@ -1,0 +1,346 @@
+/*
+Theme Name: My Portfolio Theme
+Author: Kusum RS
+Description: A modern, warm, light-colored portfolio theme
+Version: 2.0
+*/
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #fff9f5; /* Soft cream background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: (90deg, #fff9f5, #f79d65);
+    color: #f79d65;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #f4845f;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #f79d65;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 14px;
+    border-radius: 20px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+nav ul li a:hover {
+    background: rgba(255,255,255,0.3);
+    transform: scale(1.05);
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background: #f7b267;
+    color: #fff;
+    text-align: center;
+    border-bottom: 4px solid #f4845f;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.hero-content .highlight {
+    color: #fff9f5;
+}
+
+.hero-content p {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.btn-primary, .btn-secondary {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background: #f4845f;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: #f27059;
+}
+
+.btn-secondary {
+    background: #fff9f5;
+    color: #f4845f;
+    border: 2px solid #f4845f;
+}
+
+.btn-secondary:hover {
+    background: #f4845f;
+    color: #fff;
+}
+
+/* Container */
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #f7b267;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(247, 156, 101, 0.3);
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+/* About Section */
+.about-section {
+    text-align: center;
+    margin: 40px auto;
+    font-size: 1.2rem;
+    color: #444;
+}
+
+/* Projects Section */
+.projects-section {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.projects-section h2 {
+    margin-bottom: 20px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: #fff9f5;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #f7b267;
+    box-shadow: 0 4px 10px rgba(247, 156, 101, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    background: #fef2eb;
+}
+
+/* Skills Section */
+.skills-section {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background: #fff9f5;
+    border: 1px solid #f7b267;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #444;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #f79d65;
+    color: #fff;
+    font-weight: bold;
+    border-top: 3px solid #f4845f;
+    margin-top: 30px;
+}
+
+/* Contact Form */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff9f5;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #f7b267;
+    box-shadow: 0 4px 10px rgba(247, 156, 101, 0.2);
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 14px;
+    background: #fff;
+    color: #333;
+    border: 2px solid #f79d65;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #f4845f;
+    outline: none;
+}
+
+form textarea {
+    min-height: 120px;
+}
+
+form button {
+    background: #f4845f;
+    color: #fff;
+    border: none;
+    padding: 14px 22px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+    background: #f27059;
+    transform: scale(1.05);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .container {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+/* Projects Grid & Card Styling */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.project-card {
+    position: relative;
+    overflow: hidden;
+    background: #fff9f5;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #f7b267;
+    box-shadow: 0 4px 10px rgba(247, 156, 101, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.07);
+    box-shadow: 0 8px 18px rgba(247, 156, 101, 0.4);
+    background: #fff2ea;
+}
+
+.project-card::after {
+    content: '';
+    position: absolute;
+    top: 0; left: -100%;
+    width: 100%; height: 100%;
+    background: rgba(244, 132, 95, 0.2);
+    transition: all 0.4s ease;
+}
+
+.project-card:hover::after {
+    left: 0;
+}
+/* Hero Background Animation */
+.hero {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(270deg, #f7b267, #f79d65, #f4845f);
+    background-size: 600% 600%;
+    animation: gradientShift 10s ease infinite;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Project Cards Hover Effect */
+.project-card {
+    position: relative;
+    overflow: hidden;
+    background: #fff9f5;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #f7b267;
+    box-shadow: 0 4px 10px rgba(247, 156, 101, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.07);
+    box-shadow: 0 8px 18px rgba(247, 156, 101, 0.4);
+    background: #fff2ea;
+}
