@@ -6,6 +6,7 @@ A custom **WordPress theme** designed to showcase projects and skills with a mod
 ---
 
 Features
+
 •	Animated gradient Hero section with CTA buttons  
 •	Download Resume & LinkedIn buttons  
 •	About Me, Projects, and Skills sections  
@@ -54,4 +55,13 @@ LinkedIn: https://www.linkedin.com/in/kusumrs89
 ---
 
 ⭐ If you like this project, consider giving it a star!!!
+
+# 🎨 My Portfolio WordPress Theme
+
+![License](https://img.shields.io/badge/license-MIT-green)
+![WordPress](https://img.shields.io/badge/WordPress-Custom%20Theme-blue)
+![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red)
+
+![GitHub stars](https://img.shields.io/github/stars/kusumrss/wordpress-portfolio-theme?style=social)
+![GitHub forks](https://img.shields.io/github/forks/kusumrss/wordpress-portfolio-theme?style=social)
 
