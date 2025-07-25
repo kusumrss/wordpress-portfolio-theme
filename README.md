@@ -28,12 +28,16 @@ Tech Stack
 
 my-portfolio-theme/
 │── style.css           # Theme styles + theme info
+
 │── index.php           # Homepage + other page handling
+
 │── header.php          # Header + AOS CSS
+
 │── footer.php          # Footer + AOS JS
+
 │── functions.php       # Menu & script setup
-│── assets/
-│     └── Kusum_Resume.pdf
+
+│── assets/ Kusum_Resume.pdf
 
 ---
 
