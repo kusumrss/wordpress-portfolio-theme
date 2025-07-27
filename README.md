@@ -58,7 +58,7 @@ LinkedIn: https://www.linkedin.com/in/kusumrs89
 
 ---
 🌐 Live Demo
-[Click here to view the live site](https://09d14ef3d0f8.ngrok-free.app/portfolio-site)
+[Click here to view the live site](https://kusumrss.ct.ws)
 
 
 ⭐ If you like this project, consider giving it a star!!!
